@@ -87,6 +87,7 @@ Pada Raspberry Pi:
 
 ```{=html}
     python client.py
+```
 
 Client akan mengaktifkan webcam, mengatur resolusi 640x480, mengompresi
 frame menjadi JPEG, dan mengirimkan frame ke server melalui TCP.
