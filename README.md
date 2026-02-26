@@ -85,7 +85,9 @@ Pada Raspberry Pi:
 2.  Ubah `SERVER_IP` sesuai dengan IP address laptop/server
 3.  Jalankan:
 
-```    python client.py
+```
+python client.py
+```
 
 Client akan mengaktifkan webcam, mengatur resolusi 640x480, mengompresi
 frame menjadi JPEG, dan mengirimkan frame ke server melalui TCP.
