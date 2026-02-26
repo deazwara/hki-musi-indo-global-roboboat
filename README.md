@@ -26,18 +26,18 @@ menghasilkan log performa dalam format CSV.
 
 ## 🏗 Arsitektur Sistem
 
-Webcam (Logitech C270)\
-↓\
-Raspberry Pi 4 (Client)\
-- Capture 640x480\
-- JPEG Encode\
-- TCP Send\
-↓\
-Laptop/PC (Server)\
-- Receive Frame\
-- Decode JPEG\
-- YOLOv8 Inference (GPU)\
-- Display GUI\
+Webcam (Logitech C270)
+↓
+Raspberry Pi 4 (Client)
+- Capture 640x480
+- JPEG Encode
+- TCP Send
+  
+Laptop/PC (Server)
+- Receive Frame
+- Decode JPEG
+- YOLOv8 Inference (GPU)
+- Display GUI
 - Logging CSV
 
 ⚠ Sistem dirancang untuk berjalan dalam **satu jaringan lokal (LAN)**.
@@ -48,16 +48,16 @@ Laptop/PC (Server)\
 
 ### 🖥 Server (Laptop)
 
--   OS: Windows 10 Home 64-bit\
--   Processor: Intel Core i7-10750H\
--   RAM: 16 GB\
--   GPU: NVIDIA GeForce GTX 1660 Ti (6GB Dedicated VRAM)\
+-   OS: Windows 10 Home 64-bit
+-   Processor: Intel Core i7-10750H
+-   RAM: 16 GB
+-   GPU: NVIDIA GeForce GTX 1660 Ti (6GB Dedicated VRAM)
 -   DirectX 12
 
 ### 🍓 Client
 
--   Raspberry Pi 4 Model B\
--   Webcam Logitech C270 (USB)\
+-   Raspberry Pi 4 Model B
+-   Webcam Logitech C270 (USB)
 -   Resolusi input: 640 × 480
 
 ------------------------------------------------------------------------
@@ -86,7 +86,6 @@ Pada Raspberry Pi:
 3.  Jalankan:
 
 ```{=html}
-<!-- -->
 ```
     python client.py
 
