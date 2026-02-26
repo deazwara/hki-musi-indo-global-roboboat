@@ -2,7 +2,7 @@
 
 Sistem persepsi berbasis computer vision untuk mendeteksi objek sampah
 pada lingkungan perairan secara real-time menggunakan model YOLOv8n
-dengan arsitektur client--server berbasis TCP dalam jaringan lokal
+dengan arsitektur client—server berbasis TCP dalam jaringan lokal
 (LAN).
 
 ------------------------------------------------------------------------
@@ -86,7 +86,6 @@ Pada Raspberry Pi:
 3.  Jalankan:
 
 ```{=html}
-```
     python client.py
 
 Client akan mengaktifkan webcam, mengatur resolusi 640x480, mengompresi
